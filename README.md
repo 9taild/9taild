@@ -46,45 +46,107 @@ class Bhagyashri:
 
     def goal(self):
         return "Build intelligent solutions to real-world problems 🚀"
+```
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+
 <div align="center">
-💻 Programming
+
+### 💻 Programming Languages
+
 <img src="https://skillicons.dev/icons?i=python,cpp,java,javascript" />
 
 <br><br>
 
-🤖 AI / ML
+### 🤖 AI / Machine Learning
+
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
 
 <br><br>
 
-🗄️ Databases & Tools
+### 🗄️ Databases & Tools
+
 <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github,vscode,linux" />
 
 <br><br>
 
-📊 Data Science
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" /> </div>
-📊 GitHub Statistics
-<div align="center"> <img src="./profile/stats.svg" width="49%" /> <img src="./profile/top-langs.svg" width="49%" /> </div>
-🏆 GitHub Achievements
-<div align="center"> <img src="./profile/trophy.svg" width="100%" /> </div>
-📈 Contribution Activity
-<div align="center"> <img src="./profile/activity.svg" width="100%" /> </div>
-🔥 GitHub Streak
-<div align="center"> <img src="./profile/streak.svg" width="70%" /> </div>
-📌 Featured Projects
-<div align="center"> <a href="https://github.com/Bhagyashri71"> <img src="./profile/project-1.svg" width="49%" /> </a> <a href="https://github.com/Bhagyashri71"> <img src="./profile/project-2.svg" width="49%" /> </a> </div>
-🐍 Contribution Snake
-<div align="center"> <img src="./profile/github-contribution-grid-snake.svg" width="100%" /> </div>
-🌱 Currently
-<div align="center">
-🧠 Learning	🐍 Coding	🤖 Exploring	🚀 Building
-Machine Learning	Python	Artificial Intelligence	Real-world Projects
+### 📊 Data Science
+
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+
 </div>
-🌐 Connect With Me
-<div align="center"> <a href="https://github.com/Bhagyashri71"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.linkedin.com/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> </div>
+
+---
+
+## 📊 GitHub Statistics
+
 <div align="center">
-✨ "Learning today. Building tomorrow."
-<br> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" /> </div> ```
+
+<img src="./profile/stats.svg" width="49%" />
+
+<img src="./profile/top-langs.svg" width="49%" />
+
+</div>
+
+---
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+<img src="./profile/trophy.svg" width="100%" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Bhagyashri71/Bhagyashri71/output/github-contribution-grid-snake.svg" width="100%" />
+
+</div>
+
+---
+
+## 🌱 Currently
+
+<div align="center">
+
+| 🧠 Learning | 🐍 Coding | 🤖 Exploring | 🚀 Building |
+|:---:|:---:|:---:|:---:|
+| Machine Learning | Python | Artificial Intelligence | Real-world Projects |
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/Bhagyashri71">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ✨ "Learning today. Building tomorrow."
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+
+</div>
