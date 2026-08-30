@@ -1,14 +1,10 @@
 name: Generate Contribution Snake
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
-
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -18,18 +14,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Bhagyashri71
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish Snake
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          build_dir: dist
-          target_branch: output
+      - name: Publish snake to output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          cd dist
+
+          git init
+          git checkout --orphan output
+
+          git add .
+          git commit -m "Update contribution snake"
+
+          git push --force \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            output:output
